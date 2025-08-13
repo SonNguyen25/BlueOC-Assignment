@@ -7,6 +7,7 @@ An app that fetches posts from the given API `https://jsonplaceholder.typicode.c
 It is built with Vite, React, and Redux for state management.
 
 ## Getting Started:
+Run these commands into your terminal depending on what you want to do:
 ### Prerequesites:
 - npm
 ```
@@ -37,6 +38,14 @@ npm install
 npm run dev
 ```
 After running the command, open the printed URL in the terminal.
+
+### Production
+```
+npm run build
+
+npm run preview
+```
+Running the commands above in order to build the project and preview its production build. After running the command, open the printed URL in the terminal.
 
 ## Project Structure
 ```
