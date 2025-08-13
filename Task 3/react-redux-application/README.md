@@ -40,7 +40,7 @@ After running the command, open the printed URL in the terminal.
 
 ## Project Structure
 ```
-src/
+src/                   
   main.jsx                 
   App.jsx                  
 
@@ -55,4 +55,4 @@ src/
 
 ## How It Works
 On initial load, PostsList dispatches fetchPosts() when status === 'idle'. If the status is 'pending' or there is an error, a message will be displayed on screen, else on success, posts are stored in Redux and rendered on page. PostForm illustrates a form for the user to add a post by filling in the post's title and body. When submmited, it will dispatch addPost which add to the list of posts locally in Redux.
-There are also extraReducers used to handles asynchronous API calls' status for fetchPosts, which includes: 'pending', 'succeeded', and 'failed'. Other than that, setPost(post) updates the current state of the post to be added, and addPost(post) add a local post by giving it a specified id.
+There are also extraReducers used to handles asynchronous API calls' status (given to us by Redux's createAsyncThunk) for fetchPosts, which includes: 'pending', 'succeeded', and 'failed'. Other than that, setPost(post) updates the current state of the post to be added, and addPost(post) add a local post by giving it a specified id.
