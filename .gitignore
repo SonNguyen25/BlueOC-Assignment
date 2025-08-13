@@ -1,0 +1,24 @@
+# Logs
+react-redux-application/logs
+react-redux-application/*.log
+react-redux-application/npm-debug.log*
+react-redux-application/yarn-debug.log*
+react-redux-application/yarn-error.log*
+react-redux-application/pnpm-debug.log*
+react-redux-application/lerna-debug.log*
+
+react-redux-application/node_modules
+react-redux-application/dist
+react-redux-application/dist-ssr
+react-redux-application/*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
